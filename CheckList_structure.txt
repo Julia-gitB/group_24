@@ -1,0 +1,18 @@
+Checks				Result
+				Environmemt
+			Win 8.1		Win 10		Win 11
+
+File Operations:	
+Create file		Pass		Pass		Pass
+Open file  		
+Save
+Print
+
+Editing files:
+Copy			Fail		Fail		fail
+Cut
+Paste
+Delete
+Cancel
+Search
+Search and replace
