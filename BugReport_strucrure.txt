@@ -1,0 +1,25 @@
+	Bug Report structure
+
+Summary		Brief description of the problem
+Project		Name of the tested projeck
+Component	Part or function name of the tested product
+Version		The version of the product on which the bug was found
+Severity	
+		S1 (Blocker)
+		S2 (Critical)
+		S3 (Major)
+		S4 (Minor)
+		S5 (Trivial)
+
+Priority
+		P1 (High)
+		P2 (Medium)
+		P3 (Low)
+
+Status		Bug status
+Author		Bug report creator
+Environment
+Steps to Reproduce
+Actual result
+Expected Result
+Attachment
