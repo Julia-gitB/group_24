@@ -1,0 +1,80 @@
+Linux terminal (GitBash) commands
+
+1. See where I am 
+pwd
+
+2. Create folder 
+mkdir folder_name
+
+3. Enter fte folder 
+cd folder_name
+
+4. Create 3 folders in the current catalog
+ mkdir f_1 f_2 f_3
+
+5. Enter to any folder 
+cd f_1
+
+6. Create 5 files (3 txt, 2 json)
+touch test1.txt test2.txt test3.txt test_1.json test_2.json
+
+7. Create 3 folders (nested within each other)
+mkdir -p d_1/d_2/d_3
+
+8. List the contents of the folder
+ls (displays the contents in a row) 
+ls -la (displays the contents in a column)
+
+9. Open any txt file
+vim test_1.txt
+
+10. Write anything there, any text. 
+Press the letter i (insert) and write the text
+
+11. Save and exit. Press in turn
+esc: wq enter
+
+12. Exit the folder one level up
+cd ..
+
+13. Move any 2 files you created to any other folder
+mv test_1.txt test_1.json d_1 (move to directory below)
+mv test1.txt test2.txt /d/Courses_QA (move to the directory above with the full path)
+
+14. Copy any 2 files you created to any other folder
+cp test2.txt test_2.json d_1
+
+15. Find file by name
+find . -name test2.txt
+
+16. View content in real time
+tail -f D:/Courses_QA/Terminal/f_1/d_1/test_1.txt
+
+17. Show the first few lines from a text file
+head -n3 d_1/test_1.txt (displays the first 3 lines)
+
+18. Show last few lines from text file tail -n3 d_1 / test_1.txt (displays last 3 lines)
+
+19. View the contents of a long file (less command) learn how it works
+less /d/Courses_QA/Terminal/f_1/d_1/test_1.txt
+
+20. Show date and time date (current date and time)
+date
+date -r  /d/Courses_QA/Terminal/f_1/d_1/test_1.txt (date and time when the file was last modified)
+
+21. Send an http request to the server. http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000
+curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
+
+22. Write a script that will automatically execute the items 3, 4, 5, 6, 7, 8, 13
+
+#!/bin/bash
+cd D:
+cd D:/Courses_QA/GitHab/group_24/Automation_script_gitbash/AutoFolder
+mkdir f_1 f_2 f_3
+cd f_1
+touch test1.txt test2.txt test3.txt js_1.json js_2.json
+mkdir -p d_1/d_2/d_3
+ls
+mv test1.txt js_1.json d_1
+
+

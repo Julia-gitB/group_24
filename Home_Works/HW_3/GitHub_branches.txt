@@ -1,0 +1,60 @@
+1. On the local repository make branches for:
+- Postman
+		git branch Postman
+- Jmeter
+		git branch Jmeter
+- CheckLists
+		git branch CheckLists
+- Bug Reports
+		git branch Bug_Reports
+- SQL
+		git branch SQL
+- Charles
+		git branch Charles
+- Mobile testing
+		git branch Mobile_testing
+
+2. Push all branches to remote repository
+		git checkout main
+		git push -u origin --all
+		
+3. In the Bug_Reports branch, make a text document with the structure of a bug report (txt document)
+		git checkout Bug_Reports
+		touch BugReport_structure.txt
+		vim BugReport_structure.txt
+
+4. Push the structure of bug report to the remote repository
+		git add .
+		git commit -m "Create file BugReport_structure.txt"
+		git push
+
+5. Merge the Bug_Reports branch to Main
+		git checkout main
+		git merge Bug_Reports
+
+6. Push Main to the remote repository
+		git push
+		
+7. In the CheckLists branch, create the structure of the checklist (txt document)
+		git checkout CheckLists
+		touch CheckList_structure.txt
+		vim CheckList_structure.txt
+		
+		
+8. Push the structure of checklist to remote repository
+		git add .
+		git commit -m 'Create Check_lists_structure.txt'
+		git push
+
+9. On the remote repository create Pull Request CheckLists to Main
+		go to the git hub
+		click 'Compare & Pull Requst'
+		click 'Create Pull Requst'
+		click 'Merge Pull Requst'
+		click 'Confirm merge'
+
+10. Synchronize remote and local Main branches
+		git pull
+
+
+

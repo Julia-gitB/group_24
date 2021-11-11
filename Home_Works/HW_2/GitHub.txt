@@ -1,0 +1,54 @@
+1. Create file “new.json” 
+touch new.json
+
+2. Add file to Git
+git add .
+
+3. Commit file 
+git commit -m "Create file new.json"
+
+4. Upload file to remote GitHub repository
+git push
+
+5. Create files new2.json, new2.xml, new2.txt
+touch new2.json, new2.xml, new2.txt
+
+6. Add files to Git
+git add .
+
+7. Commit files
+git commit -m "Create files new2.json, new2.xml, new2.txt" 
+
+8. Upload file to remote GitHub repository
+git push
+
+9. Edit the content of the file “new2.txt” 
+vim new2.txt 
+
+10. Edit the content of the file “new2.json” 
+vim new2.json
+
+11. Add and commit in one line “new2.txt” 
+git commit -am "added information about meself to file new2.txt"
+ 
+12. Add and commit in one line “new2.json”
+git commit -am "added information about meself to file new2.json"
+
+13. Upload file to remote GitHub repository
+git push
+ 
+16. In the web interface GitHub, create a file new3.txt 
+Click 'Add file' and choose 'Create new file' 
+Create file name
+
+
+17. Edit the content of the file in the web interface “new3.txt” 
+Edit file
+
+18. Commit changes on the web interface
+Write a description for the commit
+Choose a branch
+Click 'Commit new file'
+
+19. Synchronize remote and local repositories 
+git pull
