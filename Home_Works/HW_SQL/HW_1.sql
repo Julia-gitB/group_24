@@ -27,9 +27,9 @@ where password = '12333';
 select * from students
 where created_on = '2021-03-26 00:00:00';
 
- --10. Print users where the word '????' is in the name
+ --10. Print users where the word '%Анна%' is in the name
 select * from students
-where name like '????%';
+where name like '%Анна%';
 
 --11. Print users where there is a number 8 at the end of the name
 select * from students s where name like '%8';
