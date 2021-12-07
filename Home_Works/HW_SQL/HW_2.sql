@@ -158,6 +158,10 @@ values (71, 1),
 		(79, 2),
 		(80, 3);
 	
+insert into employee_salary(employee_id, salary_id)
+values (70, 20);
+
+
 update employee_salary
 set salary_id = 12
 where employee_id = 26

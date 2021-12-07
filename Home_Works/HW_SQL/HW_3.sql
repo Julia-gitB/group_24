@@ -38,11 +38,12 @@ where monthly_salary < 2000 and employee_name is null
 --5. Display all employees who have not received a salary
 
 select employee_name, monthly_salary
-from employees left join employee_salary
+from employees 
+join employee_salary
 on employees.employee_id = employee_salary.employee_id 
 left join salary on
 employee_salary.salary_id = salary.id
-where monthly_salary is null
+where employee_salary.salary_id >  17
 
  --6. Display all employees and the names of their positions
 
