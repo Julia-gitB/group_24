@@ -1,0 +1,73 @@
+1. Check status
+git status
+
+2. Check local branches
+git branch
+
+3. Check Global branches
+git branch -r
+
+4. Check all branches 
+git branch -a
+
+
+5. git fetch
+git fetch загружает коммиты, файлы и ссылки из удаленного репозитория. Данная команда выполняется, когда вы хотите посмотреть, что изменилось в удаленном репозитории, что кто-то другой сделал в нем. При этом очень важно, что git fetch не изменяет никаких ваших локальных данных, над которыми вы работаете.
+
+6. Create new branch
+git branch New_branch
+
+Create and move to the new brancn
+git checkout New_branch
+
+7. Move to branch
+git switch New_branch
+
+
+
+8. Create new folder
+mkdir New_Folder
+
+9. Move to New folder
+cd New_Folder
+
+10. Create New file
+touch New_file.txt
+
+11. Open New File
+vim New_file.txt
+
+12. Write anything there, any text. 
+Press the letter i (insert) and write the text
+
+13. Save and exit. Press in turn
+esc: wq enter
+
+14. Exit the folder one level up
+cd ..
+
+15. Move any 2 files you created to any other folder
+mv test_1.txt test_1.json d_1 (move to directory below)
+mv test1.txt test2.txt /d/Courses_QA (move to the directory above with the full path)
+
+16. Copy any 2 files you created to any other folder
+cp test2.txt test_2.json d_1
+
+17. Find file by name
+find . -name test2.txt
+
+18. View content in real time
+tail -f D:/Courses_QA/Terminal/f_1/d_1/test_1.txt
+
+19. Show the first few lines from a text file
+head -n3 d_1/test_1.txt (displays the first 3 lines)
+
+20. Show last few lines from text file tail -n3 d_1 / test_1.txt (displays last 3 lines)
+
+21. View the contents of a long file (less command) learn how it works
+less /d/Courses_QA/Terminal/f_1/d_1/test_1.txt
+
+22. Show date and time date (current date and time)
+date
+date -r  /d/Courses_QA/Terminal/f_1/d_1/test_1.txt (date and time when the file was last modified)
+
