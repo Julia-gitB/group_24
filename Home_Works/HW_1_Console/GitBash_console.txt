@@ -1,5 +1,8 @@
 Linux terminal (GitBash) commands
 
+0. Проверить статус (на соответсвие глобального и локального репозитория)
+git status
+
 1. See where I am 
 pwd
 
